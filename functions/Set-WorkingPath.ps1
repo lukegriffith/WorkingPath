@@ -1,4 +1,4 @@
-﻿Function Set-WorkingPath ($path = $pwd.path) {
+﻿Function Set-WorkingPath ($path = $pwd.ProviderPath) {
     
     
     try {
